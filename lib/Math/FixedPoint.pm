@@ -1,6 +1,6 @@
 package Math::FixedPoint;
 {
-  $Math::FixedPoint::VERSION = '0.20130625.1915';
+  $Math::FixedPoint::VERSION = '0.20130625.1928';
 }
 use strict;
 use warnings;
@@ -30,7 +30,7 @@ sub new {
     }
 
     else {
-        $self = [ 0, 0, 1 ];
+        $self = [ 1, 0, 0 ];
     }
 
     bless $self, $class;
@@ -330,7 +330,7 @@ Math::FixedPoint
 
 =head1 VERSION
 
-version 0.20130625.1915
+version 0.20130625.1928
 
 =head1 SYNOPSIS
 
@@ -361,7 +361,7 @@ Math::FixedPoint - fixed-point arithmetic for Perl
 
 =head1 VERSION
 
-version 0.20130625.1915
+version 0.20130625.1928
 
 =head1 METHODS
 
